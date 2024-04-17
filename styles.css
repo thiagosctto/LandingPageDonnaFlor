@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #d9edd2;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+header {
+    height: 100px;
+    background-color: white;
+}
+
+.options1, .options2 {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.options1 a, .options2 a{
+    border-radius: 5px;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    font-family: "Sedan", serif;
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+    font-size:medium;
+}
+
+.options1 a:hover, .options2 a:hover {
+    background-color: #d4bca4;
+    color:#34544c;
+    font-size: large;
+}
+
+.logo { 
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    height: 100px;
+    font-style: normal;    
+}
+
+.logo h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    font-family: "Whisper", cursive;
+    font-size:3em;
+    color: black ;
+    
+   
+}
+.logo span {
+    height: 20%;
+    color: #4f4f4d;
+}
+
+.show {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+}
+
+
+.texto1 {
+    display: flex;
+    text-align: center;
+    width: 700px;
+    font-family: "Sedan", serif;
+    font-weight: 400px;
+    font-size: 14px;
+    font-style: normal;
+    color: #4f4f4d;
+    margin: 2.5em;
+}
+
+.imgPrincipal {
+    margin: 3em;
+}
+
+.imgPrincipal img {
+    width: 240px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+
+}
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-large;
+    width: 30%;
+    padding: 16px;
+    transition: .5s;
+}
+
+.social a {
+    padding: 8px 6px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social a:hover {
+    background-color: #d4bca4;
+    color: white;
+    border-radius: 45%;
+    border-bottom: 1px solid whitesmoke;
+}
